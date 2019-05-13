@@ -1,0 +1,81 @@
+body
+{
+	margin: 0;
+}
+*
+{
+	box-sizing: border-box;
+}
+.benngoai > li
+{
+	display: inline;
+	margin-right: 10px;
+	position: relative;
+
+}
+li
+{
+	list-style: none;
+font-size: 14px;
+
+}
+.bentrong li
+{
+	padding: 10px;
+}
+div, li
+{
+
+}
+.menu4cot
+{
+	position: absolute;
+	width: 700px;
+	grid-template-columns: 25% 25% 25% 25%;
+	left: -35%;
+	top: 30px;
+	display: none;
+
+}
+.benngoai > li:hover .menu4cot
+{
+display: grid;
+
+}
+a
+{
+			text-decoration: none;
+					color: #92929d;
+}
+.benngoai > li > a
+{
+
+		font-weight: bold;
+		color: #92929d;
+		padding: 15px;
+
+
+}
+.benngoai > li:hover
+{
+	font-weight: bold;
+	border-bottom: solid #65509e;
+
+}
+.benngoai > li:hover > a
+{
+color: #65509e;
+
+
+}
+.benngoai > li:hover .menucap3:hover 
+{
+	background: #dbdbdb;
+	border-bottom: solid #65509e;
+
+}
+.benngoai > li:hover .menucap3:hover a
+{
+	color: #65509e;
+
+}
